@@ -1,0 +1,12 @@
+#
+# ~/.bash_profile
+#
+if [[ "$(tty)" = "/dev/tty1" ]]; then
+  if ! pidof ssh-agent; then
+    eval "$(ssh-agent -s)"
+  fi
+  source"$HOME/.local/bin/shfiles/session.sh"
+  exec Hyprland
+fi
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc

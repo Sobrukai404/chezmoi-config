@@ -1,0 +1,12 @@
+{
+  "wallpaper.enable": true,
+  "theme.font.name": "VALORANT",
+  "theme.font.style": "normal",
+  "theme.font.label": "VALORANT",
+  "theme.font.size": "1rem",
+  "theme.bar.menus.enableShadow": true,
+  "theme.bar.floating": false,
+  "theme.bar.border.location": "none",
+  "theme.bar.enableShadow": true,
+  "theme.bar.buttons.workspaces.enableBorder": false
+}

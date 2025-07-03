@@ -1,7 +1,7 @@
 return {
   -- add dracula
   {
-    "folke/tokyonight.nvim",
+    "Mofiqul/dracula.nvim",
     opts = {
       transparent = true,
     },
@@ -11,7 +11,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "dracula",
+      transparent = true,
     },
   },
 }
